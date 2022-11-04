@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 import cloudscraper
 import time
 
+#data
 def nowtime():
     sec = time.time()
     now = time.localtime(sec)
