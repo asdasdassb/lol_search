@@ -14,6 +14,9 @@ def nowtime():
     str = (f"{now.tm_year}/{now.tm_mon}/{now.tm_mday} {now.tm_hour+8}:{now.tm_min}:{now.tm_sec} UTC+8")
     return str
 
+
+
+# ttttt
 class lol_search(Cog_Extension):
     #LOL 玩家查詢
     @commands.slash_command(name = '查玩家', description = '英雄聯盟玩家查詢')
